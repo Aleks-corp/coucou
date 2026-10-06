@@ -100,7 +100,7 @@ $CHANGES
 
 1. Download Coucou.zip below and unzip it.
 2. Move Coucou.app to your Applications folder, replacing the old one if you have it.
-3. First launch: right-click Coucou.app → Open → Open (or run `xattr -dr com.apple.quarantine /Applications/Coucou.app`).
+3. First launch: right-click Coucou.app → Open → Open (or run: xattr -dr com.apple.quarantine /Applications/Coucou.app).
 
 Linux and Windows: see the [README](https://github.com/Aleks-corp/coucou#readme)."
 
