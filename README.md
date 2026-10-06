@@ -67,6 +67,10 @@ Meet **Mochi**: a soft little squircle with big eyes that pops out of your notch
 
 macOS releases are published as `v*` tags. See [CHANGELOG.md](CHANGELOG.md) for the full notes of each version.
 
+| Version | Date | Notes |
+|---|---|---|
+| [0.1.10](https://github.com/Aleks-corp/coucou/releases/tag/v0.1.10) | October 6, 2026 | First fork release, Mac only |
+
 ## Install
 
 ### Download for macOS

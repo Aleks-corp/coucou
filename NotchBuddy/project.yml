@@ -123,8 +123,8 @@ targets:
         CFBundleName: Coucou
         CFBundleDisplayName: Coucou
         CFBundleIdentifier: com.aleks-corp.coucou
-        CFBundleVersion: "10"
-        CFBundleShortVersionString: "0.1.9"
+        CFBundleVersion: "11"
+        CFBundleShortVersionString: "0.1.10"
         CFBundlePackageType: APPL
         LSUIElement: YES
         NSHighResolutionCapable: YES

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.10 — October 6, 2026
+
+- First release of the Aleks-corp fork: Mac only, signed ad-hoc (not notarized) with the bundle ID `com.aleks-corp.coucou`. The iPhone sync, Live Activity relay and iCloud are not part of this build. Keys saved in the Keychain by the original app are not carried over: enter them again in Settings
+- Security review of the code before release: no hardcoded secrets, no telemetry, hook socket restricted to the current user, no known vulnerable npm dependencies
+
 ## 0.1.9 — October 6, 2026
 
 - Services up close on the iPhone: tap a service and your Mac fetches live data from its API — Vercel, GitHub, Stripe, Resend, Cal.com, n8n and Notion. The keys never leave the Mac; the detail is written to your iCloud encrypted (#251)
