@@ -8,7 +8,7 @@
 
 Approve permissions, watch your agents work, drop a file, chat with Claude — all without leaving what you're doing.
 
-[![Version](https://img.shields.io/github/v/release/Aleks_corp/coucou?filter=v*&label=version&color=0A84FF)](https://github.com/Aleks_corp/coucou/releases)
+[![Version](https://img.shields.io/github/v/release/Aleks-corp/coucou?filter=v*&label=version&color=0A84FF)](https://github.com/Aleks-corp/coucou/releases)
 ![macOS 15+](https://img.shields.io/badge/macOS-15%2B-black?logo=apple)
 ![Windows 10/11](https://img.shields.io/badge/Windows-10%2F11-0078D4?logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20deb%20%7C%20rpm-FCC624?logo=linux&logoColor=black)
@@ -16,7 +16,7 @@ Approve permissions, watch your agents work, drop a file, chat with Claude — a
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-native-0A84FF)
 ![Tauri 2](https://img.shields.io/badge/Tauri-2-FFC131?logo=tauri&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
-![GitHub stars](https://img.shields.io/github/stars/Aleks_corp/coucou?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Aleks-corp/coucou?style=social)
 
 <img src="docs/media/demo.gif" width="760" alt="Coucou in action">
 
@@ -71,7 +71,7 @@ macOS releases are published as `v*` tags. See [CHANGELOG.md](CHANGELOG.md) for 
 
 ### Download for macOS
 
-1. Grab the latest `Coucou.zip` from [Releases](https://github.com/Aleks_corp/coucou/releases).
+1. Grab the latest `Coucou.zip` from [Releases](https://github.com/Aleks-corp/coucou/releases).
 2. Unzip and move **Coucou.app** to `/Applications`.
 3. Launch it, and click **Open** when macOS asks you to confirm. Updating from 0.1.0? macOS may ask you, once for each key you saved, to let Coucou use it: enter your Mac password and click **Always Allow**.
 
@@ -88,7 +88,7 @@ rest of the differences.
 
 ### Linux
 
-The first Linux build is out as a beta: download it from [Coucou for Linux 0.1.1 (beta)](https://github.com/Aleks_corp/coucou/releases/tag/linux-v0.1.1), x86_64 only for now. Later versions will be in [Releases](https://github.com/Aleks_corp/coucou/releases) under `linux-v*` tags.
+The first Linux build is out as a beta: download it from [Coucou for Linux 0.1.1 (beta)](https://github.com/Aleks-corp/coucou/releases/tag/linux-v0.1.1), x86_64 only for now. Later versions will be in [Releases](https://github.com/Aleks-corp/coucou/releases) under `linux-v*` tags.
 
 - **AppImage** (any distribution): `chmod +x Coucou-Linux-*.AppImage`, then run it.
 - **Debian / Ubuntu**: `sudo apt install ./Coucou-Linux-*.deb`
@@ -106,7 +106,7 @@ so there it opens as a regular window. See [`windows/README.md`](windows/README.
 
 ```bash
 brew install xcodegen
-git clone https://github.com/Aleks_corp/coucou.git
+git clone https://github.com/Aleks-corp/coucou.git
 cd coucou/NotchBuddy
 xcodegen
 open NotchBuddy.xcodeproj   # then ⌘R
@@ -115,7 +115,7 @@ open NotchBuddy.xcodeproj   # then ⌘R
 **Windows** — requirements: [Rust](https://rustup.rs), Node 20+, MSVC build tools.
 
 ```powershell
-git clone https://github.com/Aleks_corp/coucou.git
+git clone https://github.com/Aleks-corp/coucou.git
 cd coucou/windows
 npm install
 npm run pack                # installer lands in windows/release/
@@ -129,7 +129,7 @@ sudo apt install build-essential pkg-config \
   libwebkit2gtk-4.1-dev libgtk-layer-shell-dev libayatana-appindicator3-dev \
   librsvg2-dev libssl-dev libdbus-1-dev patchelf \
   gstreamer1.0-plugins-base gstreamer1.0-plugins-good
-git clone https://github.com/Aleks_corp/coucou.git
+git clone https://github.com/Aleks-corp/coucou.git
 cd coucou/windows
 npm install
 npm run pack                # AppImage, .deb and .rpm land in windows/release/

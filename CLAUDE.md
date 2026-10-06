@@ -25,7 +25,7 @@ Windows and Linux: `cd windows && npm install && npm run tauri dev`
 - Never overwrite `~/.claude/settings.json`: dated backup, merge, show the diff, write only after the user confirms.
 - Never send an email or approve a Claude Code or Codex permission without an explicit click.
 - Performance: 0 % CPU when the island is hidden.
-- Keep the bundle identifier `fr.louisraille.NotchBuddy` (Keychain items, preferences and permissions depend on it).
+- Keep the bundle identifier `com.aleks-corp.coucou` (Keychain items, preferences and permissions depend on it). This fork is signed with a free Personal Team (`34NZBT97L7`): no iCloud/CloudKit, push or notarization, so the Mac build is Mac-only and ad-hoc signed; the iPhone targets are upstream code that cannot be built with this account.
 - Never restyle what already ships (pills, cards, Settings, chat…): existing views stay exactly as they are in `main`, which is the App Store build. Change the look of an existing view only when explicitly asked.
 - Pill IDs are stable contract values (Keychain, UserDefaults, hook routing): never rename an existing pill ID.
 - New views follow the existing app style. `design/prototype/notch-buddy.html` and `design/captures/` are references for new work, not a reason to change existing views.

@@ -683,19 +683,19 @@
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					0387C996BACD956C91E19390 = {
-						DevelopmentTeam = 256AUJ9555;
+						DevelopmentTeam = 34NZBT97L7;
 						ProvisioningStyle = Automatic;
 					};
 					495922874E20462B9FC47E53 = {
-						DevelopmentTeam = 256AUJ9555;
+						DevelopmentTeam = 34NZBT97L7;
 						ProvisioningStyle = Automatic;
 					};
 					65F75F0262AF9C56FEF86BF4 = {
-						DevelopmentTeam = 256AUJ9555;
+						DevelopmentTeam = 34NZBT97L7;
 						ProvisioningStyle = Automatic;
 					};
 					73F29874BE2F4DF201E7AE81 = {
-						DevelopmentTeam = 256AUJ9555;
+						DevelopmentTeam = 34NZBT97L7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1025,7 +1025,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Resources/CoucouReleaseCloud.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Resources/Coucou.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_SANDBOX = NO;
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -1034,11 +1034,9 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.louisraille.NotchBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleks-corp.coucou";
 				PRODUCT_NAME = Coucou;
-				PROVISIONING_PROFILE_SPECIFIER = "Coucou Developer ID";
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PHONE_LINK;
 			};
 			name = Release;
 		};
@@ -1050,7 +1048,7 @@
 				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoNotificationContent.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1109,7 +1107,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1145,7 +1143,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COUCOU_APNS_ENV = development;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoPhone.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1171,7 +1169,7 @@
 				CODE_SIGN_ENTITLEMENTS = Resources/CoucouWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoWidgets.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1204,7 +1202,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.louisraille.NotchBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleks-corp.coucou";
 				PRODUCT_NAME = Coucou;
 				PROVISIONING_PROFILE_SPECIFIER = "Coucou Developer ID";
 				SDKROOT = macosx;
@@ -1224,7 +1222,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COUCOU_APNS_ENV = development;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoPhone.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1250,7 +1248,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				INFOPLIST_FILE = Resources/InfoAppStore.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1276,7 +1274,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.louisraille.NotchBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleks-corp.coucou";
 				PRODUCT_NAME = Coucou;
 				SDKROOT = macosx;
 			};
@@ -1290,7 +1288,7 @@
 				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoNotificationContent.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1318,7 +1316,7 @@
 				CODE_SIGN_ENTITLEMENTS = Resources/CoucouWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoWidgets.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1350,7 +1348,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COUCOU_APNS_ENV = production;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoPhone.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1376,7 +1374,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				INFOPLIST_FILE = Resources/InfoAppStore.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1402,7 +1400,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COUCOU_APNS_ENV = production;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoPhone.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1427,7 +1425,7 @@
 				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoNotificationContent.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1459,7 +1457,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.louisraille.NotchBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aleks-corp.coucou";
 				PRODUCT_NAME = Coucou;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG PHONE_LINK";
@@ -1475,7 +1473,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				INFOPLIST_FILE = Resources/InfoAppStore.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1498,7 +1496,7 @@
 				CODE_SIGN_ENTITLEMENTS = Resources/CoucouWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoWidgets.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1527,7 +1525,7 @@
 				CODE_SIGN_ENTITLEMENTS = Resources/CoucouWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoWidgets.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1622,7 +1620,7 @@
 				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Resources/InfoNotificationContent.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -1650,7 +1648,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				INFOPLIST_FILE = Resources/InfoAppStore.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1700,12 +1698,11 @@
 				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGNING_REQUIRED = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/Coucou.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 256AUJ9555;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1720,7 +1717,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				OTHER_SWIFT_FLAGS = "-strict-concurrency=complete";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1768,7 +1764,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 256AUJ9555;
+				DEVELOPMENT_TEAM = 34NZBT97L7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
